@@ -5,7 +5,7 @@ Unexpected failures in naval propulsion plants can lead to catastrophic operatio
 
 This project benchmarks 8 different regression models and ultimately implements an **Ensemble Averaging Strategy** (Random Forest + XGBoost). This approach effectively mitigates individual model biases, resulting in highly stable and accurate RUL predictions.
 
-## 🗄️ Dataset & Target Engineering
+## Dataset & Target Engineering
 The dataset is derived from a Naval Propulsion Plant simulation [[UCI](https://data.world/uci/condition-based-maintenance-of-naval-propulsion-plants)]. It contains various sensor readings including lever position, ship speed, shaft torque, temperatures, and pressures.
 
 ### Target Engineering: Formulating RUL
@@ -17,7 +17,7 @@ $$RUL_{percentage} = \frac{\text{Current Coefficient} - \text{Min Threshold}}{1.
 
 The final target variable is the average of the Compressor and Turbine RULs, providing a holistic **Global Engine Health (%)**.
 
-## 🛠️ Data Preprocessing & Transformation
+## Data Preprocessing & Transformation
 Real-world sensor data often suffers from skewness or discrete binning. To ensure optimal model performance, rigorous preprocessing was applied:
 
 1.  **Feature Selection:** Dropped static/irrelevant features (`index`, `T1`, `P1`).
