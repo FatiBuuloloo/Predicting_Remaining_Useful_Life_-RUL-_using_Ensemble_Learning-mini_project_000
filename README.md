@@ -68,7 +68,7 @@ By translating the continuous RUL percentage into actionable business logic, thi
 * 🟡 **WARNING (20% ≤ RUL ≤ 40%):** Schedule maintenance and order spare parts (Cost-avoidance phase).
 * 🔴 **CRITICAL (RUL < 20%):** Immediate engine shutdown required to prevent catastrophic failure.
 
-## 💻 Tech Stack
+## Tech Stack
 * **Language:** Python
 * **Data Manipulation:** Pandas, NumPy
 * **Machine Learning:** Scikit-Learn, XGBoost
